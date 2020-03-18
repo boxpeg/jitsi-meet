@@ -7,8 +7,8 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
  * The URL of the Jitsi Meet deployment to be proxy to in the context of
  * development with webpack-dev-server.
  */
-const devServerProxyTarget
-    = process.env.WEBPACK_DEV_SERVER_PROXY_TARGET || 'https://alpha.jitsi.net';
+/* const devServerProxyTarget
+    = process.env.WEBPACK_DEV_SERVER_PROXY_TARGET || 'https://alpha.jitsi.net';*/
 
 const analyzeBundle = process.argv.indexOf('--analyze-bundle') !== -1;
 
@@ -271,7 +271,7 @@ module.exports = [
  * @returns {string|undefined} If the request is to be served by the proxy
  * target, undefined; otherwise, the path to the local file to be served.
  */
-function devServerProxyBypass({ path }) {
+/* function devServerProxyBypass({ path }) {
     if (path.startsWith('/css/') || path.startsWith('/doc/')
             || path.startsWith('/fonts/') || path.startsWith('/images/')
             || path.startsWith('/sounds/')
@@ -282,7 +282,7 @@ function devServerProxyBypass({ path }) {
 
     const configs = module.exports;
 
-    /* eslint-disable array-callback-return, indent */
+    /!* eslint-disable array-callback-return, indent *!/
 
     if ((Array.isArray(configs) ? configs : Array(configs)).some(c => {
             if (path.startsWith(c.output.publicPath)) {
@@ -309,4 +309,4 @@ function devServerProxyBypass({ path }) {
     if (path.startsWith('/libs/')) {
         return path;
     }
-}
+}*/

@@ -34,7 +34,7 @@ var config = {
         // focus: 'focus.meet.jitsi',
 
         // XMPP MUC domain. FIXME: use XEP-0030 to discover it.
-        muc: 'muc.meet.jit.si',
+        muc: 'muc.meet.jit.si'
     },
 
     // BOSH URL. FIXME: use XEP-0156 to discover it.
@@ -176,6 +176,7 @@ var config = {
 
     // Whether to enable file recording or not.
     fileRecordingsEnabled: true,
+
     // Enable the dropbox integration.
     // dropbox: {
     //     appKey: '<APP_KEY>' // Specify your app key here.
