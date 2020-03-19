@@ -96,10 +96,11 @@
 
         &.with-click-handler {
             cursor: pointer;
+            border-radius: 4px;
         }
 
         &.with-click-handler:hover {
-            background-color: #75A7E7;
+            //background-color: #75A7E7;
         }
 
         .add-button {

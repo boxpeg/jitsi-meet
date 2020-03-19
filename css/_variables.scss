@@ -49,8 +49,8 @@ $newToolbarSizeWithPadding: calc(#{$newToolbarSize} + 24px);
 $toolbarTitleFontSize: 19px;
 $overflowMenuBG: initial;
 $overflowMenuItemHoverBG: #313D52;
-$overflowMenuItemHoverColor: #B8C7E0;
-$overflowMenuItemColor: #B8C7E0;
+$overflowMenuItemHoverColor: #F7F8F9;
+$overflowMenuItemColor: #F7F8F9;
 
 /**
  * Video layout
@@ -101,7 +101,7 @@ $sidebarWidth: 375px;
  * Misc.
  */
 $borderRadius: 4px;
-$defaultWatermarkLink: '../images/watermark.png';
+$defaultWatermarkLink: '../images/watermark.svg';
 $popoverMenuPadding: 13px;
 $happySoftwareBackground: transparent;
 $desktopAppDragBarHeight: 25px;
@@ -184,8 +184,8 @@ $welcomePageHeaderTextMarginTop: 35px;
 $welcomePageHeaderTextMarginBottom: 35px;
 
 $welcomePageHeaderTextTitleMarginBottom: 16px;
-$welcomePageHeaderTextTitleFontSize: 2.5rem;
-$welcomePageHeaderTextTitleFontWeight: 500;
+$welcomePageHeaderTextTitleFontSize: 2rem;
+$welcomePageHeaderTextTitleFontWeight: 600;
 $welcomePageHeaderTextTitleLineHeight: 1.18;
 $welcomePageHeaderTextTitleOpacity: 1;
 
