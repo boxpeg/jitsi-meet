@@ -4,7 +4,7 @@ import jqueryI18next from 'jquery-i18next';
 
 import { i18next } from '../../react/features/base/i18n';
 
-import * as $ from "jquery"
+declare var $: Function;
 
 /**
  * Notifies that the {@link i18next} instance has finished its initialization.
